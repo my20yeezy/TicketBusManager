@@ -15,4 +15,20 @@ public class BusTicket {
   private String startDate;
 
   private String price;
+
+  public String getTicketClass() {
+    return ticketClass;
+  }
+
+  public String getTicketType() {
+    return ticketType;
+  }
+
+  public String getStartDate() {
+    return startDate;
+  }
+
+  public String getPrice() {
+    return price;
+  }
 }
